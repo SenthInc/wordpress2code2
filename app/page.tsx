@@ -8,7 +8,7 @@ const SOCIALS = [
   { label: "LinkedIn (MultiVisa)", url: "https://www.linkedin.com/company/multi-visa" },
   { label: "Instagram (@rajhpuvan)", url: "https://instagram.com/rajhpuvan" },
   { label: "Facebook (Raj Puvan)", url: "https://web.facebook.com/profile.php?id=100090187713555" },
-  { label: "Facebook (MultiVisa)", url: "https://web.facebook.com/profile.php?id=100090507137801" },
+  { label: "Facebook (Canada Visa Scarborough)", url: "https://web.facebook.com/profile.php?id=61552357097067" },
 ];
 
 const services = [
@@ -126,6 +126,24 @@ export default function HomePage() {
             <img src="/images/office-3.jpg" alt="MultiVisa Service office entrance" loading="lazy" />
             <img src="/images/office-4.jpg" alt="MultiVisa Service office entrance" loading="lazy" />
             <img src="/images/office-5.jpg" alt="MultiVisa Service consultation room" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section id="news" className="section section-dark">
+        <div className="wrap">
+          <div className="section-head">
+            <span className="kicker">Latest updates</span>
+            <h2 style={{ color: "var(--white)" }}>From our Facebook page</h2>
+          </div>
+          <div className="fb-wrap">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fprofile.php%3Fid%3D61552357097067&tabs=timeline&width=500&height=620&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false"
+              title="Latest posts from our Facebook page"
+              loading="lazy"
+              scrolling="no"
+              allow="encrypted-media; clipboard-write"
+            />
           </div>
         </div>
       </section>

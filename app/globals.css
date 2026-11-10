@@ -428,6 +428,20 @@ img {
   display: block;
 }
 
+.fb-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.fb-wrap iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 620px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
 .social-links {
   display: flex;
   flex-wrap: wrap;
