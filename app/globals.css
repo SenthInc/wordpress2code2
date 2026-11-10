@@ -428,18 +428,29 @@ img {
   display: block;
 }
 
-.fb-wrap {
-  display: flex;
-  justify-content: center;
+.news-card {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--charcoal-2);
+  border-radius: 20px;
+  padding: 40px 28px;
 }
 
-.fb-wrap iframe {
-  width: 100%;
-  max-width: 500px;
-  height: 620px;
-  border: 0;
-  border-radius: var(--radius);
-  background: var(--white);
+.news-card p {
+  color: #d4d4d8;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.news-link {
+  color: var(--gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .social-links {

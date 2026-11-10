@@ -136,14 +136,26 @@ export default function HomePage() {
             <span className="kicker">Latest updates</span>
             <h2 style={{ color: "var(--white)" }}>From our Facebook page</h2>
           </div>
-          <div className="fb-wrap">
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fprofile.php%3Fid%3D61552357097067&tabs=timeline&width=500&height=620&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false"
-              title="Latest posts from our Facebook page"
-              loading="lazy"
-              scrolling="no"
-              allow="encrypted-media; clipboard-write"
-            />
+          <div className="news-card">
+            <p>
+              See our latest posts, visa updates and office news on Facebook.
+            </p>
+            <a
+              className="btn btn-red"
+              href="https://web.facebook.com/profile.php?id=61552357097067"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open our Facebook page
+            </a>
+            <a
+              className="news-link"
+              href="https://instagram.com/rajhpuvan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Follow on Instagram
+            </a>
           </div>
         </div>
       </section>
