@@ -165,7 +165,7 @@ export default function HomePage() {
             </ul>
           </div>
 
-          <form className="form" action="#contact">
+          <form className="form" action={`mailto:${EMAIL}?subject=Website%20consultation%20request`} method="post" encType="text/plain">
             <div className="form-row">
               <label>
                 Full name
@@ -200,7 +200,7 @@ export default function HomePage() {
               Send Message
             </button>
             <p className="form-note">
-              This form is not connected to email yet. Call or email us directly for now.
+              Clicking Send opens your email app with your message addressed to {EMAIL}.
             </p>
           </form>
         </div>
