@@ -16,6 +16,8 @@ const services = [
   { title: "Student Visa", text: "Study permit support for students planning to study in Canada." },
   { title: "Work Visa", text: "Work permit applications for people coming to Canada to work." },
   { title: "Express Entry", text: "Guidance on Express Entry applications for permanent residence." },
+  { title: "Spousal Sponsorship", text: "Sponsorship applications for spouses and partners of Canadian citizens and permanent residents." },
+  { title: "PR through Refugee Case", text: "Permanent residence applications for people with a refugee claim or protected person status in Canada." },
 ];
 
 export default function HomePage() {
@@ -186,6 +188,8 @@ export default function HomePage() {
                 <option>Student visa</option>
                 <option>Work visa</option>
                 <option>Express Entry</option>
+                <option>Spousal sponsorship</option>
+                <option>PR through refugee case</option>
               </select>
             </label>
             <label>
